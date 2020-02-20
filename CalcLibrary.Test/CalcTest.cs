@@ -66,7 +66,7 @@ namespace CalcLibrary.Test
             double numero_a = 3;
             double numero_b = 4;
             double numero_c = 2;
-            double numeroaspettato = 0.666666666666667;
+            double numeroaspettato = 0.666666666666667; 
             double numerocalcolato = Calc.Verty(numero_a, numero_b,numero_c);
             Assert.AreEqual(numeroaspettato, numerocalcolato);
 
